@@ -6,6 +6,10 @@ function App() {
 
   return (
     <>
+      <div style={{backgroundColor: "#99FF99"}}>
+      <div>
+        <img src="https://genrandom.com/api/cat" />
+      </div>
       <h1>Conrad & Sylvia</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
@@ -14,6 +18,7 @@ function App() {
         <p>
           Click to increase count
         </p>
+      </div>
       </div>
     </>
   )
