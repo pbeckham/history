@@ -6,9 +6,12 @@ function App() {
 
   return (
     <>
-      <div style={{backgroundColor: "#99FF99"}}>
       <div>
-        <img src="https://genrandom.com/api/cat" />
+      <img src="https://genrandom.com/api/cat" />
+      <div className="firework"/>
+      <div className="firework"/>
+      <div className="firework"/>
+
       </div>
       <h1>Conrad & Sylvia</h1>
       <div className="card">
@@ -18,7 +21,6 @@ function App() {
         <p>
           Click to increase count
         </p>
-      </div>
       </div>
     </>
   )
